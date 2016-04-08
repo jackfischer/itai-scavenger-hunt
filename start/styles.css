@@ -1,6 +1,7 @@
 body {
     background-image: url("res/ItaiFace.png");
-    background-color: #cccccc;
+    background-color: #ccd;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .static {
@@ -36,4 +37,15 @@ body {
     top: 0;
     height: 1%;
     width: 1%;
+}
+
+.song {
+    font-size: 24px;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.stanza {
+    padding: 5px;
 }
