@@ -1,0 +1,15 @@
+<html>
+
+<body>
+  <p>hey look at this cool text field</p>
+  <p>sql injection is cool</p>
+    <input name="field" id="inbox" type="text">
+    <button type="submit" onclick="send()">CLICK</button>
+</body>
+<script>
+function send(){
+var input = document.getElementById("inbox");
+window.location = "/inject/"+input.value;
+};
+</script>
+</html>
