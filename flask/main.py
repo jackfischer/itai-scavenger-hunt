@@ -12,7 +12,9 @@ def index():
 @app.route('/inject/<field>', methods=['GET', 'POST'])
 def inject(field):
 	print field
-	query = crudd.execute(field)
+	c=sqlite3.connect("schema.db").cursor()
+	query = c.execute(field)
+	query = str(c.fetchall())
 	return render_template('inject.html', query=query)
 
-app.run()
+app.run(debug=True)
