@@ -1,7 +1,8 @@
 # יום הולדת שמח איתי!
 ### something dumb web
 
-- brute force a cipher - derek
-- sql inject - jack
-- sm with the song (find ascii?)
-- bit manipulation - jack
+- dank - tim
+- cipher - derek
+- song lyrics - tim
+- sql inject - derek
+- bytes - jack
