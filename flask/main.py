@@ -17,4 +17,4 @@ def inject(field):
 	query = str(c.fetchall())
 	return render_template('inject.html', query=query)
 
-app.run(debug=True)
+app.run(host='0.0.0.0', debug=True)
