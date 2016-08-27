@@ -1,5 +1,4 @@
 # יום הולדת שמח איתי!
-### something dumb web
 
 - dank - tim
 - cipher - derek
